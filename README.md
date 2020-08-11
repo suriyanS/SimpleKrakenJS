@@ -1,1 +1,4 @@
-# SimpleKrakenJS
+Training
+===========
+
+Simple node.js app
