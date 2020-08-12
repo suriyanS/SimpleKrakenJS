@@ -5,13 +5,30 @@
         <title>{+title /}</title>
     
         <link rel="stylesheet" href="/css/app.css">
-    
+        <link rel="stylesheet" href="/css/w3.css">
+        <style>
+        body {font-family: "Times New Roman", Georgia, Serif;}
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+        }        
+        </style>
     </head>
-    <body>
-
-        <div id="wrapper">
-            {+body /}
+    <body>        
+        <div class="w3-top">
+            {>"layouts/menu" /}
         </div>
+
+        <!-- Page content -->
+        <div class="w3-content" style="max-width:1100px;margin-top: 5%;">
+             {+body/}
+        </div>
+        <!-- End page content -->  
+
+        <!-- Footer -->
+        <footer class="w3-center w3-light-grey w3-padding-16 footer">
+            <p>This website is built using KrakenJS!!!</p>
+        </footer>
 
     
         <script data-main="/js/app" src="/components/requirejs/require.js"></script>
