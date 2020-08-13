@@ -11,14 +11,14 @@
 
 {<body}
     <div class="w3-container" style="margin-left: 13%;">
-        <h2>Slideshow Indicators</h2>
-        <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
+        <h2>Proper meals & groceries delivered</h2>
+        <p>Stock up your fridge with a weekly Proper delivery. Find the delivery day for your neighborhood and pre-order the prior night.</p>
         </div>
 
         <div class="w3-content w3-display-container" style="max-width:800px">
-        <img class="mySlides" src="../images/img_nature_wide.jpg" style="width:100%">
-        <img class="mySlides" src="../images/img_snow_wide.jpg" style="width:100%">
-        <img class="mySlides" src="../images/img_mountains_wide.jpg" style="width:100%">
+        <img class="mySlides" src="../images/taco.jpg" style="width:100%">
+        <img class="mySlides" src="../images/sandwich.jpg" style="width:100%">
+        <img class="mySlides" src="../images/chicken.jpg" style="width:100%">
         <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
             <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
             <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
