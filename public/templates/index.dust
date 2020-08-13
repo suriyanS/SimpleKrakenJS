@@ -1,7 +1,7 @@
 {>"layouts/master" /}
 
 {<title}
-    MY TITLE
+    Order - Proper Food
 {/title}
 <style>
     .mySlides {display:none}
