@@ -13,7 +13,7 @@
     <div class="w3-container" style="margin-left: 13%;">
         <h2>Proper meals & groceries delivered</h2>
         <p>Stock up your fridge with a weekly Proper delivery. Find the delivery day for your neighborhood and pre-order the prior night.</p>
-        </div>
+    </div>
 
         <div class="w3-content w3-display-container" style="max-width:800px">
         <img class="mySlides" src="../images/taco.jpg" style="width:100%">
@@ -33,27 +33,27 @@
     showDivs(slideIndex);
 
     function plusDivs(n) {
-    showDivs(slideIndex += n);
+        showDivs(slideIndex += n);
     }
 
     function currentDiv(n) {
-    showDivs(slideIndex = n);
+        showDivs(slideIndex = n);
     }
 
     function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" w3-white", "");
-    }
-    x[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " w3-white";
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-white", "");
+        }
+        x[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " w3-white";
     }
 </script>
 {/body}

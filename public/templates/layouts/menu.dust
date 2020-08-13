@@ -3,9 +3,17 @@
     <a href="/" class="w3-bar-item w3-button">Hamilton Catering</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="/about" class="w3-bar-item w3-button">About</a>
-      <a href="/foodItems" class="w3-bar-item w3-button">Menu</a>
-      <a href="/contact" class="w3-bar-item w3-button">Contact</a>
+
+      <a href="{@pre type="content" key="route1"/}" class="w3-bar-item w3-button">
+        {@pre type="content" key="menu1"/}
+      </a>
+
+      <a href="{@pre type="content" key="route2"/}" class="w3-bar-item w3-button">
+        {@pre type="content" key="menu2"/}
+      </a>
+
+      <a href="{@pre type="content" key="route3"/}" class="w3-bar-item w3-button">
+        {@pre type="content" key="menu3"/}
+      </a>
     </div>
   </div>
-
